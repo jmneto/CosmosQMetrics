@@ -1,7 +1,7 @@
 # CosmosQMetrics
-Azure Cosmos DB - Utility to review query metrics and diagnostic information
+Azure Cosmos DB - Utility to show query metrics and diagnostic information
 
-This program uses Azure Cosmos DB SDK 3.x to execute a quuery in Azure Cosmos DB and retrieve diagnostics information
+This program uses Azure Cosmos DB SDK 3.x to execute a query in Azure Cosmos DB and retrieve diagnostics information
 
 # Usage:
 
