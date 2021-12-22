@@ -1,6 +1,6 @@
 {
-  "EndpointUri": "https://jmnetocosmosdb2.documents.azure.com:443/",
-  "Key": "JYrDtzMBdccOAKI8qNIXX3IAooIDKgfX5TLYyavhXgQNEqje7X3dNyUhkGcmLW9cckt2l6o6WwoTeiSCckV5xQ==",
+  "EndpointUri": "https://cosmosdb.documents.azure.com:443/",
+  "Key": "Your key Here",
   "DatabaseId": "MyDatabase",
   "ContainerId": "MyContainer",
   "Query": "select * from c",
