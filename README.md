@@ -3,7 +3,7 @@ Azure Cosmos DB - Utility to review query metrics and diagnostic information
 
 This program uses Azure Cosmos DB SDK 3.x to execute a quuery in Azure Cosmos DB and retrieve diagnostics information
 
-#Usage:
+# Usage:
 
 Create a configurationJSON document with the required information to connect and execute your query
 
