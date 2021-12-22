@@ -5,7 +5,7 @@ This program uses Azure Cosmos DB SDK 3.x to execute a quuery in Azure Cosmos DB
 
 # Usage:
 
-Create a configurationJSON document with the required information to connect and execute your query
+1. Create a configuration JSON document with the required information to connect and execute your query
 
 Example:
 
@@ -23,7 +23,7 @@ Example:
 ```
 
 
-Call CosmosQMetrics program passing a path to the configuration JSON 
+2. Call CosmosQMetrics program providing the path to the configuration JSON file
 
 Example:
 
