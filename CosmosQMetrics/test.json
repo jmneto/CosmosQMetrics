@@ -1,10 +1,10 @@
 {
-  "EndpointUri": "https://cosmosdb.documents.azure.com:443/",
-  "Key": "your-cosmosdb-key",
+  "EndpointUri": "https://jmnetocosmosdb2.documents.azure.com:443/",
+  "Key": "JYrDtzMBdccOAKI8qNIXX3IAooIDKgfX5TLYyavhXgQNEqje7X3dNyUhkGcmLW9cckt2l6o6WwoTeiSCckV5xQ==",
   "DatabaseId": "MyDatabase",
   "ContainerId": "MyContainer",
   "Query": "select * from c",
-  "WriteMetrics": false,
+  "WriteMetrics": true,
   "WriteDiagnostics": false,
   "WriteStream":  true
 }

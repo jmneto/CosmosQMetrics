@@ -42,14 +42,11 @@ namespace CosmosQMetrics
                 {
                     while (documentQuery.HasMoreResults)
                     {
-                        //FeedResponse<dynamic> response = await documentQuery.ReadNextAsync();
                         ResponseMessage response = await documentQuery.ReadNextAsync();
 
                         JToken parsedJson = JToken.Parse(response.Diagnostics.ToString());
 
-                        //string rssTitle = (string)parsedJson["children"][1]["children"][1]["children"][0]["children"][0]["data"]["Query Metrics"];
                         //object►children►1►children►1►children►0►children►0►data►Query Metrics
-                        //Console.WriteLine(rssTitle);
 
                         // Write out the Metrics
                         if (wm)
@@ -61,11 +58,11 @@ namespace CosmosQMetrics
                             }
                         }
 
-                        // Writes out Full Diagnostic Info
+                        // Write out Full Diagnostic Info
                         if (wd)
                             Console.WriteLine(parsedJson.ToString(Formatting.Indented));
 
-                        // Writes out Stream
+                        // Write out Stream
                         if (ws)
                             Console.WriteLine(JToken.Parse(new StreamReader(response.Content).ReadToEnd()).ToString(Formatting.Indented));
                     }
