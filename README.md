@@ -54,30 +54,6 @@ Index Utilization Information
   Potential Single Indexes
   Utilized Composite Indexes
   Potential Composite Indexes
-
-{
-  "_rid": "wlt8AJZDDb0=",
-  "Documents": [
-    {
-      "test": "test",
-      "id": "925413dc-6e1c-4d76-8a68-44a7edb020e2",
-      "_rid": "wlt8AJZDDb2BhB4AAAAAAA==",
-      "_self": "dbs/wlt8AA==/colls/wlt8AJZDDb0=/docs/wlt8AJZDDb2BhB4AAAAAAA==/",
-      "_etag": "\"18008239-0000-0a00-0000-61a7ab780000\"",
-      "_attachments": "attachments/",
-      "_ts": 1638378360
-    },
-    {
-      "test": "test2",
-      "id": "b9d74da5-054a-494c-bea7-83b5abb98144",
-      "_rid": "wlt8AJZDDb2ChB4AAAAAAA==",
-      "_self": "dbs/wlt8AA==/colls/wlt8AJZDDb0=/docs/wlt8AJZDDb2ChB4AAAAAAA==/",
-      "_etag": "\"7d00c734-0000-0a00-0000-61b51fc50000\"",
-      "_attachments": "attachments/",
-      "_ts": 1639260101
-    }
-  ],
-  "_count": 2
-}
+  
 Done
 ```
