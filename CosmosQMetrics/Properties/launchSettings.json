@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CosmosQMetrics": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\jmneto\\OneDrive\\Projects\\c#\\CosmosQMetrics\\CosmosQMetrics\\test.json"
+    }
+  }
+}

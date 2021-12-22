@@ -1,0 +1,10 @@
+{
+  "EndpointUri": "https://cosmosdb.documents.azure.com:443/",
+  "Key": "your-cosmosdb-key",
+  "DatabaseId": "MyDatabase",
+  "ContainerId": "MyContainer",
+  "Query": "select * from c",
+  "WriteMetrics": false,
+  "WriteDiagnostics": false,
+  "WriteStream":  true
+}
