@@ -9,20 +9,24 @@ Create a configurationJSON document with the required information to connect and
 
 Example:
 
+```
 {
   "EndpointUri": "https://cosmosdb.documents.azure.com:443/",
   "Key": "your-cosmosdb-key",
   "DatabaseId": "MyDatabase",
   "ContainerId": "MyContainer",
   "Query": "select * from c",
-  "WriteMetrics": false,
+  "WriteMetrics": true,
   "WriteDiagnostics": false,
-  "WriteStream":  true
+  "WriteStream":  false
 }
+```
 
 
 Call CosmosQMetrics program passing a path to the configuration JSON 
 
 Example:
 
+```
 CosmosQMetrics test.json
+```
